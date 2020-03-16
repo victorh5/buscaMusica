@@ -3,6 +3,8 @@
 <head>
 	<title>Busca Música</title>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <style>
 	#aprox {color:black;font-weight:bold;padding:10px 0}
@@ -17,21 +19,23 @@
             <input type="text" id="musica" placeholder="Nome da Música">
             <input type="submit" id="botao" value="Busca">
         </section>
-    </header>
-    <div id="vag" style="display: none;" class="hidden">
-		<!--- Here you can specify the artist and music to fetch -->
-		<span style='color:green'>
-			<b>Artist:</b> <i id='artista'>Jorge e Mateus</i> /
-			<b>Song:</b> <i id='music'></i>
-		</span>
+	</header>
+	<main>
+    	<div id="vag" style="display: none;" class="hidden">
+			<!--- Here you can specify the artist and music to fetch -->
+			<span>
+				<b>Artist:</b> <i id='artista'></i>
+				<b>Song:</b> <i id='music'></i>
+			</span>
 
-		<!--- Where lyrics should be placed. Don't remove Vagalume logo and link. -->
-		<a target=_blank style='float:right;font-size:10px;color:#000;text-decoration:none;font-weight:bold' href="http://www.vagalume.com.br/"><img border=0 src="http://www.vagalume.com.br/images/logo_small2.jpg" alt="Vagalume"><br/>Letras de Músicas</a>
-		<div id='letra' style='width:400px;text-align:left'>
-			<pre class=text>Fetching lyrics... <img src="http://www.vagalume.com.br/images/processing.gif"></pre>
+			<!--- Where lyrics should be placed. Don't remove Vagalume logo and link. -->
+			<a target=_blank href="http://www.vagalume.com.br/" style="float: right; font-weight: bold; font-size: 10px;text-decoration: nonex;"><img src="/logo.jpg" style="height: 80px;" alt="Vagalume"><br/>Letras de Músicas</a>
+			<div id='letra'>
+				<pre class=text>Fetching lyrics... <img src="http://www.vagalume.com.br/images/processing.gif"></pre>
+			</div>
+			<!--<a target=_blank id=vagalumeBrandBottom href="http://www.vagalume.com.br/search.php?t=art&q=Madonna">More about <p></p> at Vagalume &raquo;</a> -->
 		</div>
-		<a target=_blank id=vagalumeBrandBottom href="http://www.vagalume.com.br/search.php?t=art&q=Madonna">More about Madonna at Vagalume &raquo;</a>
-	</div>
+	</main>
 	<script src="scripts.js"></script>
 </BODY>
 </HTML>
