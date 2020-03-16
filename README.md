@@ -1,5 +1,5 @@
-Ainda em desenvolvimento!
+O funcionamento é bem simples, seguindo apenas passos que estão na tela
 
-Está funcionando porém serão feitas algumas mudanças no design
+É possivel utilizar para encontrar as letras de músicas que você quiser!
 
-e algumas funções serão utilizadas!
+Pronto para utilização em localhost
