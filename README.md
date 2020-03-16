@@ -1,3 +1,5 @@
 Ainda em desenvolvimento!
 
-Updates no readme serão colocados nos próximos dias
+Está funcionando porém serão feitas algumas mudanças no design
+
+e algumas funções serão utilizadas!
