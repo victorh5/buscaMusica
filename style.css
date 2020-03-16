@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+}
+body{
+    color: black;
+    background-color: #9459590f;
+    font-family: 'Roboto', sans-serif;
+}
+
+header, section {
+    text-align: center;
+}
+
+#letra {
+    font-size: 17px;
+    font-weight: lighter;
+}
